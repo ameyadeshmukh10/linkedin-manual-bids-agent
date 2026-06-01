@@ -1,0 +1,25 @@
+# Secrets — do not commit
+config.py
+token.json
+.env
+*.pem
+
+# Local Claude/IDE
+.claude/
+.vscode/
+.idea/
+
+# LinkedIn data + generated reports
+data/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
